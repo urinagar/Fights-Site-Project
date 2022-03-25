@@ -1,0 +1,30 @@
+.Layout {
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto;
+	overflow: auto;
+
+}
+.Layout > main{
+	position: relative;
+}
+.Layout > main > .BackBtn {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 20px;
+    right: 320px;
+}
+
+.Layout > main > i {
+    font-size: 30px;
+    color: rgb(79, 74, 99);
+}
+.Layout > main > i:hover {
+    transition: 0.5s ease ;
+    font-size: 30px;
+    color: rgb(85, 144, 255);
+}

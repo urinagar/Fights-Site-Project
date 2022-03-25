@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.Home > main{
+    margin: 20px auto;
+	width: 100%;
+}
+
+.Home > div{
+    display: grid;
+    height: auto;
+}
+.Home > hr {
+    
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px 0 0 0;
+    border-radius: 20px;
+    margin: 50px 0;
+
+}
+
+.Home > hr::before{
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1.5px 0;
+    border-radius: 20px;
+    
+}
+
+.Home > main > span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+}
+
+.Home > main > span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.Home > main > span a:before,
+.Home > main > span a:after{
+    position: absolute;
+    content: "New Vacation";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Home .Graph::before,
+.Home .Graph::after{
+    content: "Graphs";
+}
+
+.Home > main > span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+}
+
+.Home > main > span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.Home > main > span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+    cursor: pointer;
+}
+  

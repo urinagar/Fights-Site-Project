@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Indie+Flower&family=Inter&family=Shizuru&family=Titan+One&display=swap');
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: lightblue;
+}

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+
+.AdminVacationCard body {
+background: #DFC2F2;
+  background-image: linear-gradient( to right, #ffffb3,#ffe6e6);
+  background-attachment: fixed; 
+  background-size: cover;
+
+  
+  }
+
+.AdminVacationCard .Container{
+  box-shadow: 0 15px 30px 1px grey;
+  background: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5em auto;
+  height: 350px;
+  width: 700px;
+
+  
+}
+
+
+
+.AdminVacationCard .ProductDetails {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 40%;
+
+}
+
+.AdminVacationCard .Container .ProductDetails h1{
+  font-family: 'Bebas Neue', cursive;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  color: #344055;
+  margin: 0;
+  
+}
+
+.AdminVacationCard .Container .ProductDetails h1:before{
+  position: absolute;
+  content: '';
+  right: 0%; 
+  top: 0%;
+  transform: translate(25px, -15px);
+  font-family: 'Bree Serif', serif;
+  display: inline-block;
+  background: #ffe6e6;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  color: white;
+  margin: 0;
+  animation: chan-sh 6s ease infinite;
+}
+
+
+.AdminVacationCard .hint-star {
+  display: inline-block;
+  margin-left: 0.5em;
+  color: gold;
+  width: 50%;
+}
+
+.AdminVacationCard li {
+  font-weight: 600;
+}
+.AdminVacationCard .Container .ProductDetails > p {
+font-family: 'EB Garamond', serif;
+  text-align: left;
+  font-size: 18px;
+  color: #7d7d7d;
+  
+}
+.AdminVacationCard .Control.Edit{
+  position: absolute;
+  bottom: 33%;
+  left: 10.8%;
+}
+.AdminVacationCard .Control.Delete{
+    position: absolute;
+    bottom: 20%;
+    left: 10.8%;
+  }
+.AdminVacationCard .Btn {
+
+  transform: translateY(0px);
+  transition: 0.3s linear;
+  background:  #809fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #eee;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.AdminVacationCard .Btn:hover{
+  transform: translateY(-6px);
+  background: #1a66ff;
+}
+
+  .AdminVacationCard .Btn span {
+  font-family: 'Farsan', cursive;
+  transition: transform 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin:0;
+  
+}
+.AdminVacationCard .Btn .Price, .Heart{
+  background: #333;
+  border: 0;
+  margin: 0;
+}
+
+.AdminVacationCard .Btn .Price {
+  transform: translateX(-10%); padding-right: 15px;
+}
+
+.AdminVacationCard .Btn .Heart {
+  transform: translateX(-100%);
+  position: absolute;
+  background: #333;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.AdminVacationCard .Btn .Follow {
+  z-index: 3; 
+  font-weight: bolder;
+}
+
+.AdminVacationCard .Btn:hover .Price {
+  transform: translateX(-110%);
+}
+
+.AdminVacationCard .Btn:hover .Heart {
+  transform: translateX(0%);
+}
+
+.AdminVacationCard .ProductImage {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 45%;
+  display: inline-block;
+}
+
+.AdminVacationCard .Container img {
+  width: 130%;
+  height: 100%;
+
+}
+
+.AdminVacationCard .Info {
+    background: rgba(27, 26, 26, 0.9);
+    font-family: 'Bree Serif', serif;
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 105%;
+    cursor: crosshair;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.AdminVacationCard .Info h2 {
+  text-align: center
+}
+.AdminVacationCard .ProductImage:hover .Info{
+  transform: translateX(0);
+}
+
+.AdminVacationCard .Info ul li{
+  transition: 0.3s ease;
+}
+.AdminVacationCard .Info ul li:hover{
+  transform: translateX(10px) scale(1.2);
+}
+
+.AdminVacationCard .ProductImage:hover img {
+  transition: all 0.3s ease-out;
+}
+.AdminVacationCard .ProductImage:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

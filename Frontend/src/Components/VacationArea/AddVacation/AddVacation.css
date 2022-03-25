@@ -1,0 +1,149 @@
+
+.AddVacation {
+    padding: 40px 0  ;
+    display: flex;
+  
+}
+
+.AddVacation .BackBtn {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 0;
+    right: 5px;
+}
+
+.AddVacation i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.AddVacation i:hover {
+    transition: 0.5s ease ;
+    font-size: 30px;
+    color: rgb(85, 144, 255);
+}
+
+.AddVacation .ResetBtn {
+    background-color: rgb(170, 170, 170);
+}
+
+.AddVacation .ResetBtn:hover {
+    background-color: rgb(138, 138, 138);
+}
+
+.AddVacation > form {
+    position: relative;
+    background:rgba(0, 0, 0, 0.315) url("../../../Assets/Images/AddBackgroundImg.jpeg");
+    padding: 40px 20px ;
+    justify-content: center;
+    margin: auto;
+    width: 750px;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-blend-mode: darken;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px 1px grey;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+
+
+}
+
+.AddVacation h2 {
+    margin-top: 0;
+    grid-column: 1/ span 2;
+
+}
+
+.AddVacation> form > div:nth-child(3){
+    grid-column: 1/ span 2;
+}
+.AddVacation> form > div:nth-child(3) > span{
+    left: 110px;
+}
+
+.AddVacation> form > div:nth-child(4){
+    grid-column: 1;
+}
+
+.AddVacation> form > div:nth-child(8){
+    grid-column: 1/ span 2;
+}
+
+.AddVacation> form > div:nth-child(8) > span{
+    left: 110px;
+}
+
+.AddVacation> form > div:nth-child(9){
+    margin: auto;
+    grid-column: 1/ span 2;
+}
+
+
+.AddVacation > form > div {
+    position: relative;
+    margin: 5% 15%;
+    padding: 10px 0;
+}
+.AddVacation  label {
+    position: relative;
+    font-weight: 550;
+}
+.AddVacation > form > div> span{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.637);
+    position: absolute;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(255, 0, 0);
+    bottom: -20px;
+    left: 0;
+}
+.AddVacation textarea {
+    resize: none;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.AddVacation textarea:hover {
+    transform: translateY(-3px) scale(1.05);
+    transition: transform 0.3s;
+}
+
+.AddVacation input {
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.171);
+    border: 0.5px solid white;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.AddVacation input:hover {
+    transform: translateY(-3px) scale(1.05);
+    transition: transform 0.3s;
+}
+
+.AddVacation input::placeholder {
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.AddVacation input[type="datetime-local"]::-webkit-calendar-picker-indicator  {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    filter: invert(1);
+  }

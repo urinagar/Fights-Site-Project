@@ -1,0 +1,15 @@
+.VacationsList{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    
+}
+
+.VacationsList  hr{  
+    border-radius: 3px;
+    height: 12px;
+    margin-top: 0;
+    border: 0;
+    box-shadow: inset 0 14px 16px -10px rgba(0, 0, 0, 0.5);
+}
+

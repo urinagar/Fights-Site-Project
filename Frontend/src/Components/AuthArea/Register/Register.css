@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Indie+Flower&family=Shizuru&family=Titan+One&display=swap');
+
+.Register {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.315) url("../../../Assets/Images/LoginBackGroundImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-blend-mode: darken;
+}
+.Register form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    background-color: rgba(0, 12, 78, 0.671);
+    border-radius: 5px;
+    border: 0.5px solid rgba(255, 255, 255, 0.596);
+    padding: 40px 10px;
+}
+
+.Register span {
+    color: red;
+    position: absolute;
+    font-size: 12px;
+    bottom: 20px;
+    left: 90px
+}
+
+.Register > div{
+    text-align: center;
+    margin: auto;
+    color: white ;
+    position: relative;
+
+}
+.Register .inputContainer {
+    position: relative;
+    display: inline-block;
+}
+.Register input {
+    background-color: transparent  ;
+    border: 0.5px solid white ;
+    color: white ;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin:0 20px 40px 20px;
+    height: 40px;
+    
+}
+.Register label{
+    position: absolute;
+    left: 85px;
+    font-size: 12px;
+    padding-top: 10px;
+    top:-25px
+}
+.Register .BtnGroup{
+    margin: auto;
+}
+
+.Register h1 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 50px;
+    margin-top: -200px;
+    text-align: left;
+}

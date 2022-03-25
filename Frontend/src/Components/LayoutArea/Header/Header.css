@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.Header {
+	background-color: rgba(0, 19, 129, 0.671);
+  border-radius: 5px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.596);
+  color: white;
+  padding: 0 10%;
+  background:rgba(0, 0, 0, 0.315) url("../../../Assets/Images/HeaderImage.jpg");
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 10px 30px 1px grey;
+
+}
+
+
+
+.Header > div {
+    text-align: left;
+}
+.Header  h1 { 
+   font-size: 60px;
+  padding-bottom: 0;
+}
+.Header h2{
+    font-size: 20px;
+}
+.Header h2.Quote span {
+    font-family: 'Great Vibes', cursive;
+}
+
+.Header > div > h1, .Header > div > h2 {
+    margin: auto 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin: 0;
+    padding: 20px 20px;
+    margin-bottom: 5px;
+
+}
+.Header h1:hover  {
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }

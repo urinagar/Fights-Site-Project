@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Indie+Flower&family=Shizuru&family=Titan+One&display=swap');
+
+.UpdateVacation {
+    position: relative;
+    padding: 40px 0  ;
+  
+}
+.UpdateVacation .BackBtn {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 0;
+    right: 5px;
+}
+
+.UpdateVacation i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.UpdateVacation i:hover {
+    transition: 0.5s ease ;
+    font-size: 30px;
+    color: rgb(85, 144, 255);
+}
+.UpdateVacation .ResetBtn {
+    background-color: rgb(170, 170, 170);
+}
+
+.UpdateVacation .ResetBtn:hover {
+    background-color: rgb(138, 138, 138);
+}
+
+
+.UpdateVacation > form {
+    position: relative;
+    padding: 40px 20px ;
+    justify-content: center;
+    margin: auto;
+    width: 750px;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-blend-mode: darken;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px 1px grey;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+
+.UpdateVacation h2 {
+    margin-top: 0;
+    grid-column: 1/ span 2;
+}
+
+.UpdateVacation> form > div:nth-child(3) > span{
+    left: 110px;
+}
+.UpdateVacation> form > div:nth-child(3){
+    grid-column: 1/ span 2;
+}
+
+.UpdateVacation> form > div:nth-child(4){
+    grid-column: 1;
+}
+
+.UpdateVacation> form > div:nth-child(8){
+    grid-column: 1/ span 2;
+}
+.UpdateVacation> form > div:nth-child(9){
+    margin: auto;
+    grid-column: 1/ span 2;
+}
+
+.UpdateVacation > form > div {
+    position: relative;
+    margin: 5% 15%;
+    padding: 10px 0;
+}
+.UpdateVacation  label {
+    position: relative;
+    font-weight: 550;
+}
+.UpdateVacation>form> div> span{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.637);
+    position: absolute;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(255, 0, 0);
+    bottom: -20px;
+    left: 0;
+}
+.UpdateVacation textarea {
+    resize: none;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.UpdateVacation textarea:hover {
+    transform: translateY(-3px) scale(1.05);
+    transition: transform 0.3s;
+}
+
+.UpdateVacation input {
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.171);
+    border: 0.5px solid white;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.UpdateVacation input:hover {
+    transform: translateY(-3px) scale(1.05);
+    transition: transform 0.3s;
+}
+
+.UpdateVacation input::placeholder {
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.UpdateVacation input[type="datetime-local"]::-webkit-calendar-picker-indicator  {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    filter: invert(1);
+  }

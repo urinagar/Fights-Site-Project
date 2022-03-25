@@ -1,0 +1,18 @@
+.AuthMenu {
+	position: fixed;
+    right: 30px;
+    top: 10px;
+    color: white;
+    z-index: 20;
+}   
+
+.AuthMenu div {
+    padding: 5px 5px ;
+    background-color: rgba(0, 24, 163, 0.685)  ;
+    border-radius: 5px;
+}
+
+.AuthMenu a:hover {
+    text-decoration: none;
+    
+}
