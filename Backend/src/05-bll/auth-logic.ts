@@ -1,6 +1,6 @@
 import { OkPacket } from "mysql";
-import jwt from "../01-Utils/jwt";
-import ClientError from "../03-Models/client-error";
+import jwt from "../01-utils/jwt";
+import ClientError from "../03-models/client-error";
 import CredentialsModel from "../03-models/credentials-model";
 import UserModel from "../03-models/user-model";
 import dal from "../04-dal/dal";

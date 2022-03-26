@@ -44,7 +44,7 @@ class VacationsList extends Component<{}, VacationsListState> {
     public render(): JSX.Element {
         return (
             <div className="VacationsList">
-				{this.state?.vacations?.map(v => <div key={v.vacationId}>{this.loggedUser.user.role === "User"? <VacationCard key={v.vacationId} vacation={v} /> : <AdminVacationCard  key={v.vacationId} vacation={v} /> }</div>).reverse()}
+				{this.state?.vacations?.map(v => <div key={v.vacationId}>{this.loggedUser.user.role === "Admin"?   <AdminVacationCard  key={v.vacationId} vacation={v} /> : <VacationCard key={v.vacationId} vacation={v} />}</div>).reverse()}
             </div>
         );
     }

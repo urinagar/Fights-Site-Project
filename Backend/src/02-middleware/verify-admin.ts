@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
-import jwt from "../01-Utils/jwt";
-import ClientError from "../03-Models/client-error";
-import Role from "../03-Models/role";
+import jwt from "../01-utils/jwt";
+import ClientError from "../03-models/client-error";
+import Role from "../03-models/role";
 
 async function verifyAdmin(request: Request, response: Response, next: NextFunction): Promise<void> {
 

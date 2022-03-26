@@ -1,6 +1,6 @@
 import { Request } from "express";
 import jwt, { JwtPayload, VerifyErrors } from "jsonwebtoken";
-import UserModel from "../03-Models/user-model";
+import UserModel from "../03-models/user-model";
 import config from "./config";
 
 const secretKey = "Vacations-Is-Fun";

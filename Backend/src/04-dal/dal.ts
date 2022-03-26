@@ -1,5 +1,5 @@
 import mysql, { MysqlError } from "mysql";
-import config from "../01-Utils/config";
+import config from "../01-utils/config";
 
 const connection = mysql.createPool({
     host: config.mySql.host,

@@ -52,6 +52,7 @@ function AdminVacationCard(props: AdminVacationCardProps): JSX.Element {
                         <ul>
                             <li>Starting Date : {new Date(props.vacation.startingDate).toLocaleString()} </li>
                             <li>Ending Date :  {new Date(props.vacation.endingDate).toLocaleString()} </li>                 
+                            <li>Price :  ${props.vacation.price} </li>                 
                         </ul>
                     </div>
                     </div>

@@ -3,6 +3,8 @@ import verifyAdmin from "../02-middleware/verify-admin";
 import verifyToken from "../02-middleware/verify-token";
 import VacationModel from "../03-models/vacation-model";
 import vacationLogic from "../05-bll/vacation-logic";
+import path from "path";
+
 
 
 const router = express.Router();
@@ -32,8 +34,8 @@ router.get("/vacations/:id",verifyToken, async (request: Request, response: Resp
 
 router.get("/vacations/images/:imagename", async (request: Request, response: Response, next: NextFunction) => {
     try{
-        const imageName = request.params.imagename;
-        response.download("./src/assets/images/" + imageName);
+        const imageName = request.params.imagename;        
+        response.download(path.join(__dirname,"../assets/images/"+ imageName));
     }
     catch(err: any ){
         next(err);

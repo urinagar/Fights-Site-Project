@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import jwt from "../01-Utils/jwt";
-import ClientError from "../03-Models/client-error";
+import jwt from "../01-utils/jwt";
+import ClientError from "../03-models/client-error";
 
 async function verifyToken(request: Request, response: Response, next: NextFunction): Promise<void> {
 

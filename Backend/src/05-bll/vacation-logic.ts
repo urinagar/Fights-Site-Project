@@ -1,5 +1,5 @@
 import { OkPacket } from "mysql";
-import ClientError from "../03-Models/client-error";
+import ClientError from "../03-models/client-error";
 import VacationModel from "../03-models/vacation-model";
 import dal from "../04-dal/dal";
 import { v4 as uuid } from "uuid";
